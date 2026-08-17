@@ -14,3 +14,7 @@ func Scenario09(a, b, c, d, e, f, g, h, i, j, k, l int) int { return i + d }
 func Scenario10(a, b, c, d, e, f, g, h, i, j, k, l int) int { return j + c }
 func Scenario11(a, b, c, d, e, f, g, h, i, j, k, l int) int { return k + b }
 func Scenario12(a, b, c, d, e, f, g, h, i, j, k, l int) int { return l + a }
+
+// CurrentRevision makes this commit structurally material so the regression
+// fixture receives a full default-branch analysis after the empty-commit test.
+func CurrentRevision() int { return 2 }
